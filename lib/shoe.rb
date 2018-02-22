@@ -16,7 +16,8 @@ class Shoe
   attr_accessor :condition
   
   def cobble
-    puts 'Your shoe is good as new'
+    puts 'Your shoe is good as new!'
+    
   end
 end
 
