@@ -15,7 +15,9 @@ class Shoe
   attr_accessor :material
   attr_accessor :condition
   
-  
+  def cobble
+    puts 'Your shoe is good as new'
+  end
 end
 
 Book.new('And Then There Were None')
